@@ -11,7 +11,7 @@ openai.api_key = "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"
 async def on_member_join(member):
     channel = client.get_channel(1095384153295433751)
     await channel.send(
-    "Hi there! Welcome to NAME's server. Here are the available commands:\n"
+    "Hi there! Here are the available commands:\n"
     "!image: OpenAI's ChatGPT model image-alpha-001 will generate an image from your prompt.\n"
     "!chat: OpenAI's ChatGPT will answer your prompts.\n"
     "!code: OpenAI's ChatGPT will put the answer in a code box (for easy copy and pasting).\n"
@@ -98,7 +98,7 @@ def generate_response(prompt, temperature):
     completions = openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
-        max_tokens=2048, # 4000 is the maximum number of tokens for the davinci 003 GPT3 model
+        max_tokens=2048, 
         n=1,
         stop=None,
         temperature=temperature,

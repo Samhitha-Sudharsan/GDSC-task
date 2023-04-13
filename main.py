@@ -15,5 +15,5 @@ bot.add_cog(music_cog(bot))
 
 bot.run(os.getenv('TOKEN'))
 
-#python.exe -m pip install --upgrade pip
+
 

@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import os
 
-TOKEN = "MTA5NTM4MzE4NDU1MzgwODAwMg.GAeWtF.ETObx6iEPHvRRRoyOzAD3QxW4GUnfvRc4w7OdQ"
+TOKEN = "MTA5NTM4MzE4NDU1MzgwODAwMg.G-UUkE.i8gCKb54K5BGvVlHeBUXM63JRVl05RRxfOosJs"
 from help_cog import help_cog
 from music_cog import music_cog
 
